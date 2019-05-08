@@ -1,8 +1,6 @@
 # cluster-duck
 Documentation for the RITSEC cluster.
 
-**THIS IS FAR FROM FINAL**.
-
 ## Networking
 
 WAN - VLAN 5 - 129.21.0.0/16
@@ -91,3 +89,5 @@ P1-DIMMB1 is dead, this means that all of the B channel is unusable
 BMC firmware was causing instability issues when working in bios, etc.
 
 https://www.dell.com/community/PowerEdge-Hardware-General/PE-C6100-XS23-TY-BMC-Not-Alive-Not-Present-Recovery-Procedure/td-p/4740214
+
+**make sure to do `..\[ROM filename]` in the last command**
