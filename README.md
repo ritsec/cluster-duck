@@ -1,5 +1,6 @@
 # cluster-duck
-Documentation for the RITSEC cluster.
+
+Documentation for the RITSEC cloud.
 
 ## Hardware
 
