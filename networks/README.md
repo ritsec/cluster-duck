@@ -12,4 +12,10 @@ the club's [netbox instance](https://netbox.ritsec.club).
 
 ## Network Pages
 
-- _there are no network pages yet_
+- [Cluster Storage](./cluster-storage.md)
+- [Public Storage](./public-storage.md)
+- [RITSEC IPMI](./ritsec-ipmi.md)
+- [RITSEC Management](./ritsec-mgmt.md)
+- [RITSEC VXLAN](./ritsec-vxlan.md)
+- [User IPMI](./user-ipmi.md)
+- [User Management](./user-mgmt.md)

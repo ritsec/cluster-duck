@@ -1,17 +1,6 @@
 # cluster-duck
 Documentation for the RITSEC cluster.
 
-## Networking
-
-WAN - VLAN 5 - 129.21.0.0/16
-Cluster storage - VLAN 8 - 10.0.8.0/24
-Public storage - VLAN 9 - 10.0.9.0/24
-RITSEC mgmt - VLAN 10 - 10.0.10.0/24
-RITSEC IPMI - VLAN 20 - 10.0.20.0/24
-RITSEC VXLAN - VLAN 30 - 10.0.30.0/24
-User mgmt - 110 - 10.0.110.0/24
-User IPMI - 120 - 10.0.120.0/24
-
 ## Hardware
 
 Hostnames:
