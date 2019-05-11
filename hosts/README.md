@@ -50,4 +50,15 @@ host messages.
 
 ## Host Pages
 
-- _there are no network pages yet_
+- [nova01](./nova01.md)
+- [nova01](./nova02.md)
+- [nova01](./nova03.md)
+- [nova01](./nova04.md)
+- [nova01](./nova05.md)
+- [nova01](./nova06.md)
+- [nova01](./nova07.md)
+- [nova01](./nova08.md)
+- [nova01](./nova09.md)
+- [nova01](./nova10.md)
+- [nova01](./nova11.md)
+- [nova01](./nova12.md)

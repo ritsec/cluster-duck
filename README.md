@@ -4,12 +4,6 @@ Documentation for the RITSEC cloud.
 
 ## Hardware
 
-Hostnames:
-
-Compute nodes - nova01
-- R610s: 01-05
-- C6100: 06
-- R710s: 07-12
 Control plane nodes - mgmt01
 - C6100s: 01-03
 CEPH OSD nodes - stor01
