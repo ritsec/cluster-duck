@@ -4,8 +4,6 @@ Documentation for the RITSEC cloud.
 
 ## Hardware
 
-Control plane nodes - mgmt01
-- C6100s: 01-03
 CEPH OSD nodes - stor01
 - SUPs: 01-03
 

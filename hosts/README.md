@@ -65,3 +65,6 @@ host messages.
 - [mgmt01](./mgmt01.md)
 - [mgmt02](./mgmt02.md)
 - [mgmt03](./mgmt03.md)
+- [stor01](./stor01.md)
+- [stor02](./stor02.md)
+- [stor03](./stor03.md)
