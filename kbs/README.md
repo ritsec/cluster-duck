@@ -15,4 +15,4 @@ much collective knowledge as possible.
 
 ## KB Articles
 
-- _there are no KB articles yet_
+- [KB-0001: `stor01` RAM issues](./KB-0001)

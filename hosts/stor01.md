@@ -23,4 +23,4 @@ Operating system has been installed, and the host is accessible over SSH.
 
 ## Related KBs
 
-- _there are no related KBs_
+- [KB-0001: `stor01` RAM issues](../kbs/KB-0001.md)
