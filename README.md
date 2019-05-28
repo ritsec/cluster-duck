@@ -2,15 +2,6 @@
 
 Documentation for the RITSEC cloud.
 
-## Hardware
-
-CEPH OSD nodes - stor01
-- SUPs: 01-03
-
-### SANS
-Top SAN, Middle SAN
-
-14 x ? GB DIMMS
 
 MOBO: X9DRi-LN4F+
 
@@ -49,23 +40,6 @@ Number 3 - 6 x 8 GB DIMMS
 
 Compute Node
 Number 4 - 12 * 8 GB DIMMS
-
-## KB - STOR01 incident
-P1-DIMMB1 is dead, this means that all of the B channel is unusable
-
-4 GB DIMMs in P1-DIMMA1 and P1-DIMMC1
-8 GB DIMMs in:
-- P1-DIMMA2
-- P1-DIMMC2
-- P1-DIMMD1
-- P1-DIMMD2
-
-- P2-DIMME1
-- P2-DIMME2
-- P2-DIMMF1
-- P2-DIMMF2
-- P2-DIMMG1
-- P2-DIMMG2
 
 ## KB - C6100 BMC Firmware
 BMC firmware was causing instability issues when working in bios, etc.
