@@ -16,3 +16,5 @@ much collective knowledge as possible.
 ## KB Articles
 
 - [KB-0001: `stor01` RAM issues](./KB-0001)
+- [KB-0002: C6100 BMC Firmware](./KB-0002)
+- [KB-0003: Horizon KeyError on /project/network-topology/](./KB-0003)

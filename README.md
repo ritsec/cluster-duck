@@ -1,49 +1,43 @@
-# cluster-duck
+cluster-duck
+============
 
-Documentation for the RITSEC cloud.
+Welcome to the documentation pages for the RITSEC Cloud!
 
+This documentation is split up into four sections: hosts, KBs, networks, and
+processes. See below for more information on each section.
 
-MOBO: X9DRi-LN4F+
+While all efforts are made to keep this documentation up-to-date, sometimes
+they may fall out of sync with the actual state of the RITSEC Cloud. If you see
+something that looks different than what's documented here, please contribute
+your findings!
 
-In slots:
-- P1-DIMMA1
-- P1-DIMMB1
-- P1-DIMMC1
-- P1-DIMMD1
-- P1-DIMMA2
-- P1-DIMMB2
-- P1-DIMMC2
-- P1-DIMMD2
+Contributing
+------------
 
-- P2-DIMME1
-- P2-DIMMF1
-- P2-DIMMG1
-- P2-DIMMH1
-- P2-DIMME2
-- P2-DIMMF2
+Sections
+--------
 
-Bottom SAN
+### [Host Pages](./hosts/README.md)
 
-All slots full
+This section contains documentation on all **managed hosts** in the RITSEC
+Cloud. Managed hosts are those that are created and operated by the RITSEC
+Operations Program and any networks which are used for club operations.
 
-12 * 4 GB DIMMs
-6 * 8 GB DIMMs
+### [Knowledge Base Articles](./kbs/README.md)
 
-MOBO: X8DAH+-F
+This section contains the RITSEC Operations Program's knowledge base articles.
+These articles are meant to document the various problems that have been
+encountered while operating the RITSEC Cloud.
 
-### 2U
-Control Plane
-DIMM0 In 
-Number 1 - 6 x 8 GB DIMMS
-Number 2 - 6 x 8 GB DIMMS
-Number 3 - 6 x 8 GB DIMMS
+### [Network Pages](./networks/README.md)
 
-Compute Node
-Number 4 - 12 * 8 GB DIMMS
+This section contains documentation on all **managed networks**. Managed
+networks, much like managed hosts, are those that are created and operated by
+the RITSEC Operations Program and any networks which are used for club
+operations.
 
-## KB - C6100 BMC Firmware
-BMC firmware was causing instability issues when working in bios, etc.
+### [Processes](./processes/README.md)
 
-https://www.dell.com/community/PowerEdge-Hardware-General/PE-C6100-XS23-TY-BMC-Not-Alive-Not-Present-Recovery-Procedure/td-p/4740214
-
-**make sure to do `..\[ROM filename]` in the last command**
+This section contains documentation on installation procedures, tasks that may
+be performed more than once or twice, and any other processes which are
+normally performed that may be helpful to document.
