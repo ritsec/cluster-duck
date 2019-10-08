@@ -18,10 +18,16 @@ service.
 
 ## Host Messages
 
+### 8 October 2019 @ 16:24 EST - Sean Newman
+
+This node is currently inactive. The underlying hardware has been retired from
+the cluster. This node may be re-added to the cluster in the future when new
+hardware is procured.
+
 ### 10 May 2019 @ 23:08 EST - Sean Newman
 
 Operating system has been installed, and the host is accessible over SSH.
 
 ## Related KBs
 
-- _there are no related KBs_
+- [KB-0004: C6100 Retirement](../kbs/KB-0004.md)
