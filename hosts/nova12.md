@@ -18,7 +18,7 @@ service.
 
 ## Host Messages
 
-### 10 May 2018 @ 23:12 EST - Sean Newman
+### 10 May 2019 @ 23:12 EST - Sean Newman
 
 Operating system has been installed, and the host is accessible over SSH.
 
