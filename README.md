@@ -27,7 +27,9 @@ Operations Program and any networks which are used for club operations.
 
 This section contains the RITSEC Operations Program's knowledge base articles.
 These articles are meant to document the various problems that have been
-encountered while operating the RITSEC Cloud.
+encountered while operating the RITSEC Cloud. Other important-to-know events
+that effect more than just a single host or network can be documented here as
+well.
 
 ### [Network Pages](./networks/README.md)
 
