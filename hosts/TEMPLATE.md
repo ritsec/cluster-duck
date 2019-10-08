@@ -23,7 +23,7 @@ _Describe the host and its purpose here._
 
 _below is an example to serve as a reference for host message formatting_
 
-### 8 May 2018 @ 23:09 EST - Sean Newman
+### 8 May 2019 @ 23:09 EST - Sean Newman
 
 Template host page was created.
 

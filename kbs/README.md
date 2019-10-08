@@ -2,7 +2,9 @@
 
 This section contains the RITSEC Operations Program's knowledge base articles.
 These articles are meant to document the various problems that have been
-encountered while operating the RITSEC Cloud.
+encountered while operating the RITSEC Cloud. Other important-to-know events
+that effect more than just a single host or network can be documented here as
+well.
 
 Whenever a problem is encountered (such as a service going down unexpectedly),
 a new KB article should be create by copying the [template](./TEMPLATE.md) to a
@@ -16,3 +18,6 @@ much collective knowledge as possible.
 ## KB Articles
 
 - [KB-0001: `stor01` RAM issues](./KB-0001)
+- [KB-0002: C6100 BMC Firmware](./KB-0002)
+- [KB-0003: Horizon KeyError on /project/network-topology/](./KB-0003)
+- [KB-0004: C6100 Retirement](./KB-0004)
