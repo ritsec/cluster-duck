@@ -12,6 +12,8 @@ the club's [netbox instance](https://netbox.ritsec.club).
 
 ## Network Pages
 
+### OpenStack
+
 - [Cluster Storage](./cluster-storage.md)
 - [Public Storage](./public-storage.md)
 - [RITSEC IPMI](./ritsec-ipmi.md)
@@ -19,3 +21,9 @@ the club's [netbox instance](https://netbox.ritsec.club).
 - [RITSEC VXLAN](./ritsec-vxlan.md)
 - [User IPMI](./user-ipmi.md)
 - [User Management](./user-mgmt.md)
+
+### AWS
+
+- [aws-default](./aws-default.md)
+- [gitlab-public](./gitlab-public.md)
+- [gitlab-runners](./gitlab-runners.md)

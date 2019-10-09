@@ -50,6 +50,8 @@ host messages.
 
 ## Host Pages
 
+### OpenStack
+
 - [nova01](./nova01.md)
 - [nova02](./nova02.md)
 - [nova03](./nova03.md)
@@ -68,3 +70,10 @@ host messages.
 - [stor01](./stor01.md)
 - [stor02](./stor02.md)
 - [stor03](./stor03.md)
+
+### AWS
+
+- [flags-ctfd-education](./flags-ctfd-education.md)
+- [gitlab-bastion](./gitlab-bastion.md)
+- [gitlab](./gitlab.md)
+- [netbox](./netbox.md)
