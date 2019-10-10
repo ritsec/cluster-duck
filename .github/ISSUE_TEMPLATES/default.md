@@ -1,7 +1,18 @@
+---
+name: "Default"
+about: "The default issue template that should be used for all new issues in this repository."
+---
 [ Issue Name ]
 ==============
 
 _Describe the issue here. What should be done? Why should it be added?_
+
+Depends on
+----------
+
+This issue depends on the following issues
+- [ ] #number
+- [ ] #number
 
 Tasks
 -----
