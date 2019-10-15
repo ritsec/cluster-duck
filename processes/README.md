@@ -13,4 +13,5 @@ the process page.
 
 ## Process Pages
 
-- _there are no process pages yet_
+- [Vault Setup](./vault-setup.md): A guide for setting up and using HashiCorp
+  Vault.
