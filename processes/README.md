@@ -15,3 +15,5 @@ the process page.
 
 - [Vault Setup](./vault-setup.md): A guide for setting up and using HashiCorp
   Vault.
+- [Vault SSH CA](./vault-ssh-ca.md): A guide for setting up a Vault server as
+  an SSH CA and getting client certificates to access Operations Program hosts.
