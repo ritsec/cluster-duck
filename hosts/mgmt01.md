@@ -18,6 +18,10 @@ the RITSEC Cloud.
 
 ## Host Messages
 
+### 15 October 2019 @ 12:46 EST - Sean Newman
+
+Configured host to use the Vault SSH CA for SSH authentication.
+
 ### 8 October 2019 @ 16:28 EST - Sean Newman
 
 Due to the retirement of the C6100, this host has been migrated to the hardware

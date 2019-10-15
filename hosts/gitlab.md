@@ -16,6 +16,10 @@ A public GitLab instance for RITSEC member and club use. Running in AWS.
 
 ## Host Messages
 
+### 15 October 2019 @ 12:46 EST - Sean Newman
+
+Configured host to use the Vault SSH CA for SSH authentication.
+
 ### 8 October 2019 @ 18:10 EST - Sean Newman
 
 Host page created. GitLab has been running for a while now, whoops. It was
