@@ -16,6 +16,15 @@ A HashiCorp Vault server used to store secrets for the Operations Program.
 
 ## Host Messages
 
+### 15 October 2019 @ 13:52 EST - Sean Newman
+
+It's fixed now.
+
+### 15 October 2019 @ 12:46 EST - Sean Newman
+
+Configured host to use the Vault SSH CA for SSH authentication, however I
+screwed it up and the SSH port was changed to 22. Time to fix it...
+
 ### 14 October 2019 @ 20:04 EST - Sean Newman
 
 Host page created. Vault was deployed yesterday. Final configuration has just

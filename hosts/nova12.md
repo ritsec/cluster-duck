@@ -18,6 +18,10 @@ service.
 
 ## Host Messages
 
+### 15 October 2019 @ 12:46 EST - Sean Newman
+
+Configured host to use the Vault SSH CA for SSH authentication.
+
 ### 10 May 2019 @ 23:12 EST - Sean Newman
 
 Operating system has been installed, and the host is accessible over SSH.
