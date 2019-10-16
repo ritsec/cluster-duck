@@ -18,6 +18,10 @@ service.
 
 ## Host Messages
 
+### 16 October 2019 @ 00:47 EST - Sean Newman
+
+Ceph has been sucessfully redeployed.
+
 ### 15 October 2019 @ 12:46 EST - Sean Newman
 
 Configured host to use the Vault SSH CA for SSH authentication.
