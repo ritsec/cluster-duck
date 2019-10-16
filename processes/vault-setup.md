@@ -25,7 +25,7 @@ is unsealed, it can be used normally. Read more about sealing and unsealing in
 First, navigate to the Vault host in your browser. You will be greeted by a
 form asking you to set up the unseal keys.
 
-![Configuring the unseal keys](./images/vault-setup_key-setup.png)
+![Configuring the unseal keys](./images/vault-setup/key-setup.png)
 
 We will create 5 keys, 2 of which will be required to unseal. That way no one
 person can perform the unseal operation, but it won't be too difficult to
@@ -35,7 +35,7 @@ Once the unseal keys are generated, we can view the keys for distribution. An
 initial root token is also created. This root token provides full access to
 everything in the Vault server, and is analogous to an AWS root account.
 
-![Getting the keys to the kingdom](./images/vault-setup_key-download.png)
+![Getting the keys to the kingdom](./images/vault-setup/key-download.png)
 
 Click "Download keys" in the bottom-right corner to download the keys and the
 root token. This will download a JSON file that contains the keys in hex and
@@ -67,12 +67,12 @@ of the keys are lost, the secrets will become inaccessible!
 Once the keys are downloaded, we can proceed to the unsealing operation. Enter
 one of the keys in the unseal form to start the process.
 
-![First unseal key](images/vault-setup_unseal-1.png)
+![First unseal key](images/vault-setup/unseal-1.png)
 
 Once the first key is entered, the form will show that we have provided 1/2
 keys. We now need to enter another one of the keys into the form.
 
-![Second unseal key](images/vault-setup_unseal-2.png)
+![Second unseal key](images/vault-setup/unseal-2.png)
 
 Success! Vault is unsealed. Now we can sign in to perform initial setup using
 the root token.
@@ -83,7 +83,7 @@ First we'll cover signing in through the HTTP UI, since it provides an
 integrated command-line client. However, the rest of this guide will use the
 command-line client.
 
-![Sign me up](images/vault-setup_signin.png)
+![Sign me up](images/vault-setup/signin.png)
 
 Select "Token" as the method, and paste the root token in. Right now,
 token-based authentication is the only enabled auth method. We will enable a
@@ -92,17 +92,17 @@ new method later.
 Once signed in, a guide will be displayed to walk you through setting up some
 of the components of Vault.
 
-![Hey! Listen!](images/vault-setup_guide.png)
+![Hey! Listen!](images/vault-setup/guide.png)
 
 If you want to play around with this, feel free to set up [a dev server](https://www.vaultproject.io/docs/concepts/dev-server.html)
 locally to play around. However, we will disable it.
 
-![Go away pls](images/vault-setup_guide-dismiss.png)
+![Go away pls](images/vault-setup/guide-dismiss.png)
 
 The UI provides a helpful command-line client for those who do not want to
 install Vault locally on their machine.
 
-![Hackerman](images/vault-setup_ui-cli.png)
+![Hackerman](images/vault-setup/ui-cli.png)
 
 Click on the terminal-looking icon next to the status display in the top
 right-hand corner of the UI to access it.
