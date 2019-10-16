@@ -380,6 +380,82 @@ sudo ceph auth get-or-create client.gnocchi \
   osd 'profile rbd pool=gnocchi-metrids-hdd'
 ```
 
+### Reconfiguring
+
+This deployment of Ceph is functional, but there are several tweaks that we
+still need to make in order to get the optimal performance out of the cluster.
+The contents of the `ceph.conf` configuration file should be updated to look
+like the following snippet:
+
+```ini
+[global]
+fsid = xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+mon_initial_members = mgmt01, mgmt02, mgmt03
+mon_host = 10.0.9.201, 10.0.9.202, 10.0.9.203
+public network = 10.0.9.0/24
+cluster network = 10.0.8.0/24
+osd_crush_chooseleaf_type = 1
+osd_pool_default_size = 3
+osd_pool_default_min_size = 2
+debug_lockdep = 0/0
+debug_context = 0/0
+debug_crush = 0/0
+debug_buffer = 0/0
+debug_timer = 0/0
+debug_filer = 0/0
+debug_objecter = 0/0
+debug_rados = 0/0
+debug_rbd = 0/0
+debug_journaler = 0/0
+debug_objectcatcher = 0/0
+debug_client = 0/0
+debug_osd = 0/0
+debug_optracker = 0/0
+debug_objclass = 0/0
+debug_filestore = 0/0
+debug_journal = 0/0
+debug_ms = 0/0
+debug_monc = 0/0
+debug_tp = 0/0
+debug_auth = 0/0
+debug_finisher = 0/0
+debug_heartbeatmap = 0/0
+debug_perfcounter = 0/0
+debug_asok = 0/0
+debug_throttle = 0/0
+debug_mon = 0/0
+debug_paxos = 0/0
+debug_rgw = 0/0
+
+[osd]
+osd_max_backfills = 1
+osd_recovery_max_active = 1
+osd_recovery_max_single_start = 1
+osd_recovery_op_priority = 1
+osd_recovery_threads = 1
+osd_backfill_scan_max = 16
+osd_backfill_scan_min = 4
+```
+
+Once this new configuration has been written, it needs to be pushed out to each
+of the nodes in the cluster. This can easily be performed using ceph-deploy.
+
+```shell
+ceph-deploy --overwrite-conf config push $(cat mgmt.txt nova.txt stor.txt)
+```
+
+Finally, the Ceph services need to be restarted in order to apply the
+configuration changes. All Ceph services on all of the cluster hosts can be
+restarted with the following command.
+
+```shell
+cat mgmt.txt nova.txt stor.txt | xargs -I {} ssh {} "hostname && sudo systemctl restart ceph-*"
+```
+
+The above command also runs `hostname` to assist with troubleshooting. If a
+service fails to restart, this will help identify which host the service was on
+so the issue can be identified faster.
+
 ### Backup and Restore
 
 The files in the `~/ritsec-ceph` folder that we created are very important to
