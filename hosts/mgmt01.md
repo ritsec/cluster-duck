@@ -18,6 +18,18 @@ the RITSEC Cloud.
 
 ## Host Messages
 
+### 16 October 2019 @ 00:47 EST - Sean Newman
+
+Ceph has been sucessfully redeployed. Also, the folder used by ceph-deploy,
+`/home/ops/ritsec-ceph`, has been backed up to vault under the KV path
+`ops/files/ritsec-ceph`.
+
+### 15 October 2019 @ 15:16 EST - Sean Newman
+
+Installed Vault, ceph-deploy, and Ansible on `mgmt01` so it can be used as an
+admin node for deployment. An SSH key has also been generated and an SSH
+configuration added. I installed ceph-deploy via pip3.
+
 ### 15 October 2019 @ 12:46 EST - Sean Newman
 
 Configured host to use the Vault SSH CA for SSH authentication.
