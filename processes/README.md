@@ -13,6 +13,8 @@ the process page.
 
 ## Process Pages
 
+- [Ceph Deployment](./ceph-deployment.md): How to set up the Ceph cluster used
+  in our OpenStack deployment.
 - [Vault Setup](./vault-setup.md): A guide for setting up and using HashiCorp
   Vault.
 - [Vault SSH CA](./vault-ssh-ca.md): A guide for setting up a Vault server as
