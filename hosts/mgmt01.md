@@ -18,6 +18,10 @@ the RITSEC Cloud.
 
 ## Host Messages
 
+### 21 October 2019 @ 20:28 EST - Sean Newman
+
+Bootstrapping for OpenStack-Ansible has been completed.
+
 ### 16 October 2019 @ 00:47 EST - Sean Newman
 
 Ceph has been sucessfully redeployed. Also, the folder used by ceph-deploy,
