@@ -18,6 +18,10 @@ service.
 
 ## Host Messages
 
+### 21 October 2019 @ 20:43 EST - Sean Newman
+
+All Nova services have been removed.
+
 ### 16 October 2019 @ 00:47 EST - Sean Newman
 
 Ceph has been sucessfully redeployed.
