@@ -342,7 +342,7 @@ sudo ceph osd pool create cinder-ssd 512 512 replicated ssd_devs
 sudo ceph osd pool create glance-ssd 64 64 replicated ssd_devs
 sudo ceph osd pool create cinder-hdd 1024 1024 replicated hdd_devs
 sudo ceph osd pool create glance-hdd 256 replicated hdd_devs
-sudo ceph osd pool create gnocci-metrics-hdd 64 64 replicated hdd_devs
+sudo ceph osd pool create gnocchi-metrics-hdd 64 64 replicated hdd_devs
 ```
 
 After creating the pools, they must be initialized to be used by RBD.
@@ -352,7 +352,7 @@ sudo rbd pool init cinder-ssd
 sudo rbd pool init glance-ssd
 sudo rbd pool init cinder-hdd
 sudo rbd pool init glance-hdd
-sudo rbd pool init gnocci-metrics-hdd
+sudo rbd pool init gnocchi-metrics-hdd
 ```
 
 ### Configuring the Clients
@@ -377,7 +377,7 @@ sudo ceph auth get-or-create client.glance \
   osd 'profile rbd pool=glance-ssd, profile rbd pool=glance-hdd'
 sudo ceph auth get-or-create client.gnocchi \
   mon 'profile rbd' \
-  osd 'profile rbd pool=gnocchi-metrids-hdd'
+  osd 'profile rbd pool=gnocchi-metrics-hdd'
 ```
 
 ### Reconfiguring
