@@ -7,7 +7,7 @@ the RITSEC Cloud.
 
 - **FQDN**: mgmt01.ritsec.co
 - **Type**: Device
-- **Netbox link**: https://netbox.ritsec.club/dcim/devices/7/
+- **Netbox link**: https://netbox.ritsec.club/dcim/devices/1/
 - **Operating System**: Ubuntu 18.04.3
 - **Remote Accessibility**
   - SSH
