@@ -13,6 +13,8 @@ the process page.
 
 ## Process Pages
 
+- [Setting up an OpenStack-Ansible Deployment](./openstack-ansible.md): The
+  intricacies of working with OpenStack-Ansible in our environment.
 - [Ceph Deployment](./ceph-deployment.md): How to set up the Ceph cluster used
   in our OpenStack deployment.
 - [Vault Setup](./vault-setup.md): A guide for setting up and using HashiCorp
